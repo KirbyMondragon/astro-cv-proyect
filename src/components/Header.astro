@@ -1,5 +1,6 @@
 ---
 import * as CONTENT from "../pages/content"
+
 ---
 
 <!-- Hero section -->
@@ -8,12 +9,12 @@ import * as CONTENT from "../pages/content"
     class="grid grid-cols-3 grid-rows-1 place-items-center w-[98vw] max-w-2xl"
   >
     <div
-      class="rounded-full border-primary self-end shadow-2xl md:w-24 w-20 aspect-square"
-    >
+      class="rounded-full border-primary self-end shadow-2xl md:w-24 w-20 aspect-square">
+      
       <img
         src="/profile.jpg"
         alt="profile_picture"
-        class="object-cover w-full h-full rounded-full grayscale-[50] hover:grayscale-0"
+        class="object-cover w-full h-full rounded-full "
       />
     </div>
 
@@ -24,14 +25,14 @@ import * as CONTENT from "../pages/content"
     </div>
 
     <div class="md:grid text-right self-end hidden">
-      <h6 class="text-sm text-text/70">{CONTENT.pronouns}</h6>
       <a
-        href={CONTENT.website}
+        href="https://drive.google.com/file/d/1E8TSeSKW1Gy6YzBCFSFxDN2A63yWNId7/view?usp=sharing"
         target="_blank"
         class="hover:text-blue-300 flex items-center justify-center"
       >
         {CONTENT.website}
       </a>
+      <h5 class="text-sm text-text/80">{CONTENT.pronouns}</h5>
     </div>
   </article>
 </header>

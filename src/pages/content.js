@@ -1,24 +1,34 @@
 // Personal Information --> #hero section
-export const name = "Peter Griffin"
-export const designation = "Safety Inspector"
-export const location = "Quahog, Rhode Island"
-export const pronouns = "he/him"
-export const website = "https://petergriffin.com"
+export const name = "Kevin Mondragon "
+export const designation = "Software engineer"
+export const location = "Queretaro, Queretaro"
+export const pronouns = "Linkedin"
+export const website = "Curriculum in pdf"
 
 // About
-export const about = "An adventurous man working as a safety inspector with a quirky sense of humor. Husband to Louis Griffin. Father of Chris, Brian, and Stewie."
+export const about = "Hello, I am Kevin Arturo Mondragón Tapia, a passionate and dedicated software engineering student, pursuing a specialization in artificial intelligence. I am always in search of new professional projects where I can apply and expand my skills."
 
 // Work Experience --> #work section
 export const work = [
 	{
-		from: "2001",
+		from: "2023",
 		to: "Present",
-		role: "Safety Inspector",
-		org: "Quahog Safety Department",
-		org_url: "https://quahog.gov/safety",
-		location: "Quahog, Rhode Island",
-		skills: "Safety Inspection, Risk Assessment, Emergency Response"
+		role: "Software Developer ",
+		org: "Universidad Politecnica de Santa Rosa Jauregui",
+		org_url: "https://upsrj.edu.mx",
+		location: "Queretaro, Mexico",
+		skills: "Software Engineer, Creation of Servers,Scrum Master,Product manager,Backend Developer"
+	},
+	{
+		from: "2020",
+		to: "2022",
+		role: "Facilitator at CAAD",
+		org: "Self-Directed Learning Community (Agile Learning Center)",
+		org_url: "https://www.caad.site",
+		location: "Queretaro, Mexico",
+		skills: "Teaching ,non-violent language, Kamban, Scrum, Agile process"
 	}
+	
 ]
 
 // Projects --> #project section
@@ -26,51 +36,43 @@ export const projects = [
 	{
 		from: "2023",
 		to: "Present",
-		title: "Project Griffin",
-		description: "A project to improve safety standards in Quahog by implementing innovative safety measures.",
-		url: "https://projectgriffin.com",
-		tech: "Safety Equipment, Training Programs, Community Outreach",
+		title: "Denisse Chatbot",
+		description: "Static Chatbot for the Universidad Politecnica de Santa Rosa Jauregui(With open source librarys)",
+		url: "https://wa.link/jl3ywi",
+		tech: "Node.js, DevOps, Git hub, express",
 	},
 	{
 		from: "2023",
 		to: "2022",
-		title: "Family Safety Campaign",
-		description: "An initiative to promote safety awareness among families in Quahog.",
-		url: "https://safefamilyquahog.com",
-		tech: "Workshops, Educational Material, Public Events",
-	},
-	{
-		from: "2020",
-		to: "2021",
-		title: "Road Safety Initiative",
-		description: "A campaign to enhance road safety and reduce accidents in Quahog.",
-		url: "https://roadsafetyquahog.com",
-		tech: "Traffic Analysis, Signage Improvement, Public Awareness",
+		title: "Chatbot for SAP system for technical help",
+		description: "Chatbot potenciado por Chatgpt 4 en Whatsapp",
+		url: "http://www.grupogestioninteligente.com",
+		tech: "programming, servers, docker, node.js",
 	}
 ]
 
 // Education --> #education section
 export const education = [
 	{
-		from: "1995",
-		to: "1999",
-		institute: "Quahog High School",
-		course: "High School Diploma",
-		location: "Quahog, Rhode Island"
+		from: "2021",
+		to: "2024",
+		institute: "Universidad Politecnica de Santa Rosa Jauregui",
+		course: "Software Engineering",
+		location: "Queretaro, Mexico"
 	},
 	{
-		from: "1999",
-		to: "2003",
-		institute: "Quahog Community College",
-		course: "Bachelor of Science in Safety Management",
-		location: "Quahog, Rhode Island"
+		from: "2023",
+		to: "2024",
+		institute: "CodeCademy",
+		course: "Front-End Engineer",
+		location: "USA, Online Plataform"
 	},
 	{
-		from: "2003",
-		to: "2005",
-		institute: "Safety University",
-		course: "Master of Science in Safety Engineering",
-		location: "Boston, Massachusetts"
+		from: "2022",
+		to: "2024",
+		institute: "Universidad Politecnica de Santa Rosa Jauregui",
+		course: "English, ITEP B1",
+		location: "USA, Online Plataform"
 	}
 ]
 
@@ -78,15 +80,19 @@ export const education = [
 export const contact = [
 	{
 		source_name: "Email",
-		source: "peter.griffin@example.com",
+		source: "kevinmondragondev@gmail.com",
 	},
 	{
-		source_name: "Twitter",
-		source: "https://twitter.com/PeterGriffin",
+		source_name: "University Email",
+		source: "021000615@upsrj.edu.mx",
+	},
+	{
+		source_name: "Whatsapp",
+		source: "https://wa.link/2qv8ng",
 	},
 	{
 		source_name: "LinkedIn",
-		source: "https://www.linkedin.com/in/peter-griffin",
+		source: "https://www.linkedin.com/in/kevin-arturo-mondragon-tapia-560445236",
 	},
 ]
 
@@ -94,66 +100,50 @@ export const contact = [
 
 export const certificates = [
 	{
-		issued: "2005",
-		title: "Certified Safety Inspector",
-		org: "National Safety Association",
-		url: "https://certi.com/url",
-		description: "Certification in safety inspection and risk assessment.",
+		issued: "2021",
+		title: "Agile process(KANBAM)",
+		org: "Networking ALC LATAM",
+		url: "https://drive.google.com/file/d/1AAzANC2TYeEcLKWAYxP2rB6iQnzg5elg/view?usp=sharing",
+		description: "training for self-directed learning tools and use of agile methods for management",
 	},
 	{
 		issued: "2006",
-		title: "Emergency Response Training",
-		org: "Quahog Safety Department",
-		url: "https://certi.com/url",
-		description: "Training in handling emergency situations and crisis management.",
+		title: "Galatic Problem Solver",
+		org: "NASA international Space Apps Challenges",
+		url: "https://drive.google.com/file/d/1VTec8kCqzxw3NsSlDr75uI2EZlFqBKSe/view?usp=sharing",
+		description: "Efforts to solve challenges on Earth and in a space.",
 	},
 	{
 		issued: "2007",
-		title: "Safety Leadership Workshop",
-		org: "Safety Leaders International",
-		url: "https://certi.com/url",
-		description: "Leadership training in safety management and communication.",
+		title: "RAPID Mendix Developer",
+		org: "Mendix",
+		url: "https://drive.google.com/file/d/1Pg4tnzaLWrGSF_GKBz-LvsvGCcGL0qQR/view?usp=sharing",
+		description: "Be a developer Low Code with Mendix",
 	}
 ]
 
 // Blogs --> #blogs section
 export const blogs = [
 	{
-		date: "12-July, 2023",
-		url: "https://medium.com/",
-		title: "Adventures in Safety Inspection",
-		description: "Join me in my humorous escapades as a safety inspector in Quahog.",
-		publisher: "Quahog Times",
+		date: "07-December, 2023",
+		url: "https://kirbymondragon.github.io/index.html",
+		title: "Web for electricity and magnetism",
+		description: "This Web is for practice the Basic concepts, and with this you can study the first's concepts of electricity and magnetism. ",
+		publisher: "Frontend: Html, Css, Js, Git and Github",
 	},
 	{
-		date: "25-June, 2023",
-		url: "https://medium.com/",
-		title: "Top 10 Safety Tips for Families",
-		description: "Learn the best safety practices for families to ensure a secure environment.",
-		publisher: "Safety Monthly",
+		date: "20, january, 2024",
+		title: "In this page you can see my experience",
+		description: "This Web is for practice the Basic concepts from ASTRO ",
+		publisher: "ASTRO Framework (Html, Css, Js), Git and Github",
 	}
 ]
 
 // Achievements --> #achievement section
 export const achievements = [
 	{
-		title: "Safety Hero Award",
-		year: "2020",
-		decription: "Recognized for outstanding contributions to improving safety standards in Quahog."
-	},
-	{
-		title: "Safety Innovation Prize",
-		year: "2018",
-		decription: "Awarded for implementing innovative safety measures that yielded significant improvements."
-	},
-	{
-		title: "Community Safety Ambassador",
-		year: "2015",
-		decription: "Honored for promoting safety awareness and education in the Quahog community."
-	},
-	{
-		title: "Safety Campaign Excellence",
-		year: "2013",
-		decription: "Acknowledged for leading a successful safety campaign that reached thousands of residents."
+		title: "Escuela Internacional de Invierno",
+		year: "2023",
+		decription: "The International Winter School is a comprehensive training space, which provides theoretical, methodological and practical elements related to sustainability, research and creativity, which contribute to the development of impact projects positive in the economy, society, and the environment. Colombia universitys:  Instituto Tecnológico Metropolitano ITM – Institución Universitaria, Tecnológico de Antioquia – Institución Universitaria – TDEA"
 	}
 ]
