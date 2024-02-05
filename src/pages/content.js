@@ -43,14 +43,14 @@ export const projects = [
 	},
 	{
 		from: "2023",
-		to: "2022",
+		to: "2024",
 		title: "Chatbot for SAP system for technical help",
 		description: "Chatbot potenciado por Chatgpt 4 en Whatsapp",
 		url: "http://www.grupogestioninteligente.com",
 		tech:"OPENAI, servers, docker, Node.js"
 	},
 	{
-		date: "07-December, 2023",
+		from: "2023",
 		url: "https://kirbymondragon.github.io/index.html",
 		title: "Web for electricity and magnetism",
 		description: "This Web is for practice the Basic concepts, and with this you can study the first's concepts of electricity and magnetism. ",
@@ -73,6 +73,7 @@ export const education = [
 		institute: "Universidad Politecnica de Santa Rosa Jauregui",
 		course: "Software Engineering",
 		location: "Queretaro, Mexico",
+
 	},
 	{
 		from: "2023",
@@ -82,7 +83,7 @@ export const education = [
 		location: "USA, Online Plataform"
 	},
 	{
-		from: "2022",
+		from: "2021",
 		to: "2024",
 		institute: "Universidad Politecnica de Santa Rosa Jauregui",
 		course: "English, ITEP B1",
