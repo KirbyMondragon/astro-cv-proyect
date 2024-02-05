@@ -2,7 +2,7 @@
 export const name = "Kevin Mondragon "
 export const designation = "Software engineer"
 export const location = "Queretaro, Queretaro"
-export const pronouns = "Linkedin"
+export const pronouns = "kevinmondragondev@gmail.com"
 export const website = "Curriculum in pdf"
 
 // About
@@ -47,18 +47,32 @@ export const projects = [
 		title: "Chatbot for SAP system for technical help",
 		description: "Chatbot potenciado por Chatgpt 4 en Whatsapp",
 		url: "http://www.grupogestioninteligente.com",
-		tech: "programming, servers, docker, node.js",
+		tech:"OPENAI, servers, docker, Node.js"
+	},
+	{
+		date: "07-December, 2023",
+		url: "https://kirbymondragon.github.io/index.html",
+		title: "Web for electricity and magnetism",
+		description: "This Web is for practice the Basic concepts, and with this you can study the first's concepts of electricity and magnetism. ",
+		tech: "Frontend: Html, Css, Js, Git and Github",
+	},
+	{
+		date: "20, january, 2024",
+		title: "This page is made with ASTRO ",
+		description: "This Web is for practice the Basic concepts from ASTRO ",
+		tech: "ASTRO Framework (Html, Css, Js), Git and Github",
 	}
 ]
 
 // Education --> #education section
 export const education = [
 	{
+		
 		from: "2021",
 		to: "2024",
 		institute: "Universidad Politecnica de Santa Rosa Jauregui",
 		course: "Software Engineering",
-		location: "Queretaro, Mexico"
+		location: "Queretaro, Mexico",
 	},
 	{
 		from: "2023",
@@ -78,14 +92,6 @@ export const education = [
 
 // Contact --> #contact section
 export const contact = [
-	{
-		source_name: "Email",
-		source: "kevinmondragondev@gmail.com",
-	},
-	{
-		source_name: "University Email",
-		source: "021000615@upsrj.edu.mx",
-	},
 	{
 		source_name: "Whatsapp",
 		source: "https://wa.link/2qv8ng",
@@ -121,24 +127,12 @@ export const certificates = [
 		description: "Be a developer Low Code with Mendix",
 	}
 ]
-
+/*
 // Blogs --> #blogs section
 export const blogs = [
-	{
-		date: "07-December, 2023",
-		url: "https://kirbymondragon.github.io/index.html",
-		title: "Web for electricity and magnetism",
-		description: "This Web is for practice the Basic concepts, and with this you can study the first's concepts of electricity and magnetism. ",
-		publisher: "Frontend: Html, Css, Js, Git and Github",
-	},
-	{
-		date: "20, january, 2024",
-		title: "In this page you can see my experience",
-		description: "This Web is for practice the Basic concepts from ASTRO ",
-		publisher: "ASTRO Framework (Html, Css, Js), Git and Github",
-	}
+	
 ]
-
+*/
 // Achievements --> #achievement section
 export const achievements = [
 	{
